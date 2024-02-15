@@ -1,0 +1,550 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{Petermann2023asp}{misc}{}
+      \name{author}{8}{}{%
+        {{un=1,uniquepart=given,hash=de936d4a24f7e52d7b7d4acb024224bf}{%
+           family={Beack},
+           familyi={B\bibinitperiod},
+           given={Seung\bibnamedelima Kwon},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=3bc06b4f81b9760e8e513c52224e6d62}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Wootaek},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69e7abf9fe5692a5f7a6c5cf8b63279b}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Inseon},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9565b7da119c6e786457349f55864468}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Jongmo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6d3fad3330a630af2e99f950abdbe1f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Taejin},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e68f586538b3209e0818414027c421f9}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Byeongho},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2233ff93cbacc4ff5e6ae0b637ed7461}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minje},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f12dc2ba4e313a83e51d842799812af5}
+      \strng{fullhash}{7874454dd343e6f951ced7c7533b59d7}
+      \strng{bibnamehash}{f12dc2ba4e313a83e51d842799812af5}
+      \strng{authorbibnamehash}{f12dc2ba4e313a83e51d842799812af5}
+      \strng{authornamehash}{f12dc2ba4e313a83e51d842799812af5}
+      \strng{authorfullhash}{7874454dd343e6f951ced7c7533b59d7}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Audio Signal Encoding/Decoding Methods and Apparatus for Performing the Same}
+      \field{year}{US Patent App. 63/420 405, 2023}
+      \true{nocite}
+      \keyw{P}
+    \endentry
+    \entry{Petermann2023hyper}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2481760e07222a0df377228617b09f8c}{%
+           family={Wichern},
+           familyi={W\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=b0cd24f7dbefac6c2e9ec36884d09052}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Aswin},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=3858aac261eb9a553e16bfbfcba394ce}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={Jonathan\bibnamedelima Le},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1205cb5c130b1326bb3d46bee5178c50}
+      \strng{fullhash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \strng{bibnamehash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \strng{authorbibnamehash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \strng{authornamehash}{1205cb5c130b1326bb3d46bee5178c50}
+      \strng{authorfullhash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Audio Source Separation using Hyperbolic Embeddings}
+      \field{year}{US Patent App. 18/191 417, 2023}
+      \true{nocite}
+      \keyw{P}
+    \endentry
+    \entry{Petermann2024ICASSP_hyper}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2233ff93cbacc4ff5e6ae0b637ed7461}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minje},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{fullhash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{bibnamehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{authorbibnamehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{authornamehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{authorfullhash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}
+      \field{title}{Hyperbolic Distance-Based Speech Separation}
+      \field{usera}{https://arxiv.org/pdf/2401.03567.pdf}
+      \field{userb}{https://minjekim.com/research-projects/hdss/}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{(to appear)}
+      \range{pages}{-1}
+      \keyw{C}
+    \endentry
+    \entry{Petermann2023mbharpnet}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69e7abf9fe5692a5f7a6c5cf8b63279b}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Inseon},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2233ff93cbacc4ff5e6ae0b637ed7461}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minje},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ceb0e72169fb3d304c4993985e3e75dd}
+      \strng{fullhash}{ceb0e72169fb3d304c4993985e3e75dd}
+      \strng{bibnamehash}{ceb0e72169fb3d304c4993985e3e75dd}
+      \strng{authorbibnamehash}{ceb0e72169fb3d304c4993985e3e75dd}
+      \strng{authornamehash}{ceb0e72169fb3d304c4993985e3e75dd}
+      \strng{authorfullhash}{ceb0e72169fb3d304c4993985e3e75dd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}
+      \field{title}{Native Multi-Band Audio Coding within Hyper-Autoencoded Reconstruction Propagation Networks}
+      \field{usera}{https://arxiv.org/pdf/2303.08005.pdf}
+      \field{userb}{https://darius522.github.io/mb-harpnet/}
+      \field{userc}{https://youtu.be/ZDIyWx4j1WY}
+      \field{userd}{https://github.com/darius522/mb-harpnet}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \keyw{C}
+    \endentry
+    \entry{Petermann2023ICASSP_hyper}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2481760e07222a0df377228617b09f8c}{%
+           family={Wichern},
+           familyi={W\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=b0cd24f7dbefac6c2e9ec36884d09052}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Aswin},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=3858aac261eb9a553e16bfbfcba394ce}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={Jonathan\bibnamedelima Le},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1205cb5c130b1326bb3d46bee5178c50}
+      \strng{fullhash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \strng{bibnamehash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \strng{authorbibnamehash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \strng{authornamehash}{1205cb5c130b1326bb3d46bee5178c50}
+      \strng{authorfullhash}{ccc81cbb6f9abada7b4106ca9428b210}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}
+      \field{title}{Hyperbolic Audio Source Separation}
+      \field{usera}{https://arxiv.org/pdf/2212.05008.pdf}
+      \field{userb}{https://www.youtube.com/watch?v=RKsAMb9z70Y}
+      \field{userc}{https://youtu.be/03czYEooYDY}
+      \field{userd}{https://github.com/merlresearch/hyper-unmix}
+      \field{usere}{https://2023.ieeeicassp.org/best-paper-awards/}
+      \field{userf}{Best Student Paper Award \& Top 3\% Papers}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \keyw{C}
+    \endentry
+    \entry{Petermann2023tackling}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2481760e07222a0df377228617b09f8c}{%
+           family={Wichern},
+           familyi={W\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=3416da1acca3e6f7c52b0fbb716f4b77}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Aswin\bibnamedelima Shanmugam},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a8b8651f2f046d13aab8a7b4e639f5e3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhong-Qiu},
+           giveni={Z\bibinithyphendelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3858aac261eb9a553e16bfbfcba394ce}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={Jonathan\bibnamedelima Le},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99c4fd0ee52687e31800443d58364ed9}
+      \strng{fullhash}{5c096935fdc29578a926c8c73501b7a4}
+      \strng{bibnamehash}{5c096935fdc29578a926c8c73501b7a4}
+      \strng{authorbibnamehash}{5c096935fdc29578a926c8c73501b7a4}
+      \strng{authornamehash}{99c4fd0ee52687e31800443d58364ed9}
+      \strng{authorfullhash}{5c096935fdc29578a926c8c73501b7a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE/ACM Transactions on Audio, Speech, and Language Processing}
+      \field{title}{Tackling the Cocktail Fork Problem for Separation and Transcription of Real-World Soundtracks}
+      \field{usera}{https://arxiv.org/pdf/2212.07327.pdf}
+      \field{userb}{https://cocktail-fork.github.io}
+      \field{userd}{https://github.com/merlresearch/cocktail-fork-separation}
+      \field{volume}{31}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{2592\bibrangedash 2605}
+      \range{pages}{14}
+      \keyw{J}
+    \endentry
+    \entry{Chandna2022choir}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b0fdcbd833d333f01a8bc3c4179ab9a3}{%
+           family={Chandna},
+           familyi={C\bibinitperiod},
+           given={Pritish},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef0cf01dec1e72d510f1f143c78ab858}{%
+           family={Cuesta},
+           familyi={C\bibinitperiod},
+           given={Helena},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa62f8f2d9f255bc8616cdc205d1ee1c}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Emilia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a3a1e8f3f3cb2664402f6ef279071da}
+      \strng{fullhash}{0b2a78849c46b3bb673304ea7109177c}
+      \strng{bibnamehash}{0b2a78849c46b3bb673304ea7109177c}
+      \strng{authorbibnamehash}{0b2a78849c46b3bb673304ea7109177c}
+      \strng{authornamehash}{8a3a1e8f3f3cb2664402f6ef279071da}
+      \strng{authorfullhash}{0b2a78849c46b3bb673304ea7109177c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Signal Processing}
+      \field{title}{A Deep-Learning Based Framework for Source Separation, Analysis, and Synthesis of Choral Ensembles}
+      \field{usera}{https://www.frontiersin.org/articles/10.3389/frsip.2022.808594/full}
+      \field{volume}{2}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{J}
+    \endentry
+    \entry{PetermannD2022spainnet}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2233ff93cbacc4ff5e6ae0b637ed7461}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minje},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{fullhash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{bibnamehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{authorbibnamehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{authornamehash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \strng{authorfullhash}{b2ef7236c8af0fe2adf9cf5256697c10}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}
+      \field{title}{{SpaIn-Net}: Spatially-Informed Stereophonic Music Source Separation}
+      \field{usera}{https://arxiv.org/pdf/2202.07523.pdf}
+      \field{userb}{https://darius522.github.io/spain-net/}
+      \field{userc}{https://youtu.be/xQlKKqviY44}
+      \field{userd}{https://github.com/darius522/spain-net}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{106\bibrangedash 110}
+      \range{pages}{5}
+      \keyw{C}
+    \endentry
+    \entry{Petermann2021TheCF}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2481760e07222a0df377228617b09f8c}{%
+           family={Wichern},
+           familyi={W\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8b8651f2f046d13aab8a7b4e639f5e3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhong-Qiu},
+           giveni={Z\bibinithyphendelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3858aac261eb9a553e16bfbfcba394ce}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={Jonathan\bibnamedelima Le},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff9e37a5c5c0048d6802fb9748fd1314}
+      \strng{fullhash}{5944845aa3544a5284003172560f7cbb}
+      \strng{bibnamehash}{5944845aa3544a5284003172560f7cbb}
+      \strng{authorbibnamehash}{5944845aa3544a5284003172560f7cbb}
+      \strng{authornamehash}{ff9e37a5c5c0048d6802fb9748fd1314}
+      \strng{authorfullhash}{5944845aa3544a5284003172560f7cbb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}
+      \field{title}{The Cocktail Fork Problem: Three-Stem Audio Separation for Real-World Soundtracks}
+      \field{usera}{https://arxiv.org/pdf/2110.09958.pdf}
+      \field{userb}{https://cocktail-fork.github.io}
+      \field{userc}{https://youtu.be/pykV2zpMbpE}
+      \field{userd}{https://github.com/merlresearch/cocktail-fork-separation}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{526\bibrangedash 530}
+      \range{pages}{5}
+      \keyw{C}
+    \endentry
+    \entry{Petermann2021HarpNetHR}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=f902f594fa5b30c4302eebb449d3764b}{%
+           family={Beack},
+           familyi={B\bibinitperiod},
+           given={Seungkwon},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=2233ff93cbacc4ff5e6ae0b637ed7461}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Minje},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c140b66d119c3869fccfd7138a0778e}
+      \strng{fullhash}{8c140b66d119c3869fccfd7138a0778e}
+      \strng{bibnamehash}{8c140b66d119c3869fccfd7138a0778e}
+      \strng{authorbibnamehash}{8c140b66d119c3869fccfd7138a0778e}
+      \strng{authornamehash}{8c140b66d119c3869fccfd7138a0778e}
+      \strng{authorfullhash}{8c140b66d119c3869fccfd7138a0778e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)}
+      \field{title}{Harp-Net: Hyper-Autoencoded Reconstruction Propagation for Scalable Neural Audio Coding}
+      \field{usera}{https://arxiv.org/pdf/2107.10843.pdf}
+      \field{userb}{https://darius522.github.io/harpnet_examples/}
+      \field{userc}{https://youtu.be/rgj7suhlr_s}
+      \field{userd}{https://github.com/darius522/waspaa2021}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{316\bibrangedash 320}
+      \range{pages}{5}
+      \keyw{C}
+    \endentry
+    \entry{PetermannD2020ismir}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3f6bd16795f0a8905d27c32302996228}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0fdcbd833d333f01a8bc3c4179ab9a3}{%
+           family={Chandna},
+           familyi={C\bibinitperiod},
+           given={Pritish},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef0cf01dec1e72d510f1f143c78ab858}{%
+           family={Cuesta},
+           familyi={C\bibinitperiod},
+           given={Helena},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be6c50143449de2c48cd39144efaf70f}{%
+           family={Bonada},
+           familyi={B\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70cb99cfff644459de390ae9ea11069b}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Emilia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aba05676811ba32cf4d16e6aa5c30889}
+      \strng{fullhash}{7641559f3b094a3f5903e9e40d2f176e}
+      \strng{bibnamehash}{7641559f3b094a3f5903e9e40d2f176e}
+      \strng{authorbibnamehash}{7641559f3b094a3f5903e9e40d2f176e}
+      \strng{authornamehash}{aba05676811ba32cf4d16e6aa5c30889}
+      \strng{authorfullhash}{7641559f3b094a3f5903e9e40d2f176e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. of the International Society for Music Information Retrieval Conference (ISMIR)}
+      \field{title}{Deep Learning Based Source Separation Applied To Choir Ensembles}
+      \field{usera}{https://arxiv.org/pdf/2008.07645.pdf}
+      \field{userb}{https://darius522.github.io/satb-source-separation-results/}
+      \field{userc}{https://youtu.be/wTvYLXwPpIY}
+      \field{userd}{https://github.com/darius522/cunet}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{733\bibrangedash 739}
+      \range{pages}{7}
+      \keyw{C}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

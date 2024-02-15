@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in Latex
+% Author : Audric Serador
+% Inspired by: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\usepackage{xcolor}
+\definecolor{red}{HTML}{BF3737}
+
+\usepackage{bibentry}
+\usepackage{pgffor}
+\usepackage{xpatch}
+
+%Custom font
+\usepackage{CormorantGaramond}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[backend=biber,style=ieee,sorting=ydnt,uniquename=init,defernumbers=true]{biblatex}
+\usepackage{xpatch}
+\makeatletter
+\newbibmacro*{name:bold}[2]{%
+  \edef\blx@tmp@name{\expandonce#1, \expandonce#2}%
+  \def\do##1{\ifdefstring{\blx@tmp@name}{##1}{\bfseries\listbreak}{}}%
+  \dolistloop{\boldnames}}
+\newcommand*{\boldnames}{}
+\makeatother
+
+\xpretobibmacro{name:family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:given-family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:family-given}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+\xpretobibmacro{name:delim}{\begingroup\normalfont}{}{}
+
+\xapptobibmacro{name:family}{\endgroup}{}{}
+\xapptobibmacro{name:given-family}{\endgroup}{}{}
+\xapptobibmacro{name:family-given}{\endgroup}{}{}
+\xapptobibmacro{name:delim}{\endgroup}{}{}
+
+% Make sure my name is bold!
+\addbibresource{dpetermann.bib}
+\forcsvlist{\listadd\boldnames}
+  {{Petermann, Darius}, {Petermann, D.}, {Petermann, Darius},
+   {Petermann, D\bibinitperiod}}
+
+% Count total number of entries in each refsection, useful do descending indices
+\AtDataInput{%
+  \csnumgdef{\thefield{keywords}entrycount:\therefsection}{%
+    \csuse{\thefield{keywords}entrycount:\therefsection}+1}}
+
+% Print the labelnumber as the total number of entries in the
+% current refsection, minus the actual labelnumber, plus one
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+    \texttt{\thefield{keywords}0\number\numexpr\csuse{\thefield{keywords}entrycount:\therefsection}+1-#1\relax}}
+
+% Remove dot after final url entry
+%\renewcommand*{\finentrypunct}{\ifboolexpr{togl {bbx:url} and not test {\iffieldundef{url}}}{}{\addperiod}}
+
+% Add any entry you'd like to turn into icon here. Don't forget ot add that entry to the bibtex citation as well.
+\DeclareSourcemap{
+    \maps[datatype=bibtex]{
+      \map{
+        \step[fieldsource=paperurl]
+        \step[fieldset=usera,origfieldval]
+    }
+      \map{
+        \step[fieldsource=audiourl]
+        \step[fieldset=userb,origfieldval]
+    }
+      \map{
+        \step[fieldsource=videourl]
+        \step[fieldset=userc,origfieldval]
+    }
+      \map{
+        \step[fieldsource=codeurl]
+        \step[fieldset=userd,origfieldval]
+    }
+      \map{
+        \step[fieldsource=awardurl]
+        \step[fieldset=usere,origfieldval]
+    }
+      \map{
+        \step[fieldsource=addnote]
+        \step[fieldset=userf,origfieldval]
+    }
+  }
+}
+
+% For custom icon-based entries
+\AtEveryBibitem{%
+    \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
+        \iffieldundef{usera}{}{%
+          \printfield{usera}
+        }
+        \iffieldundef{userb}{}{%
+          \printfield{userb}
+        }
+        \iffieldundef{userc}{}{%
+          \printfield{userc}
+        }
+        \iffieldundef{userd}{}{%
+          \printfield{userd}
+        }
+        \iffieldundef{usere}{}{%
+          \printfield{usere}
+        }
+        \iffieldundef{userf}{}{%
+          \printfield{userf}
+        }
+    }
+}
+\DeclareFieldFormat{usera}{%
+    \quad\href{#1}{\color{red}\faFilePdf}
+}
+\DeclareFieldFormat{userb}{%
+    \href{#1}{\color{red}\faHeadphones}
+}
+\DeclareFieldFormat{userc}{%
+    \href{#1}{\color{red}\faVideo}
+}
+\DeclareFieldFormat{userd}{%
+    \href{#1}{\color{red}\faGithub}
+}
+\DeclareFieldFormat{usere}{%
+    \href{#1}{\color{red}\faTrophy}
+}
+\DeclareFieldFormat{userf}{%
+    \textbf{\texttt{[#1]}}
+}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\color{red}\normalfont\Large
+  \vspace{-4pt}\scshape\raggedright\Large
+}{\color{red}\thesection}{1em}{}%[\color{black}\titlerule\vspace{-5pt}]
+\renewcommand{\thesubsection}{}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------%
+% Custom commands
+\begin{document}
+
+%\bibliographystyle{IEEEtran}
+\include{custom-commands}
+
+%-------------------------------------------%
+%%%%%%  RESUME STARTS HERE  %%%%%
+
+%----------HEADING----------%
+\input{src/heading}
+
+%-----------EDUCATION-----------%
+\input{src/education.tex}
+
+%-----------EXPERIENCE-----------%
+\input{src/experience}
+
+%-----------PROJECTS-----------%
+\input{src/publications}
+
+%-----------HONORS-----------%
+\input{src/honors}
+
+%-----------Others-----------%
+\input{src/others}
+
+%-----------Others-----------%
+\input{src/certifications}
+
+%-----------SKILLS-----------%
+\input{src/skills.tex}
+
+%-----------REFEREES-----------%
+\input{src/referees}
+
+%-------------------------------------------%
+\end{document}
